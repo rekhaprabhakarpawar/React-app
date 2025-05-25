@@ -1,0 +1,34 @@
+{
+  "name": "ecom-project",
+  "version": "1.0.0",
+  "description": "ecomerce rest api",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix ./client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "keywords": [],
+  "author": "techinfoit",
+  "license": "mit",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "braintree": "^3.26.0",
+    "colors": "^1.4.0",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-formidable": "^1.2.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.8.4",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.1.7",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-icons": "^5.4.0",
+    "react-router-dom": "^7.0.2",
+    "slugify": "^1.6.6",
+    "web-vitals": "^4.2.4"
+  }
+}
